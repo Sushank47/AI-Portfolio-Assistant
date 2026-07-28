@@ -1,0 +1,23 @@
+{
+  "name": "ai-portfolio-assistant",
+  "version": "1.0.0",
+  "description": "Interactive Digital Business Card & AI Portfolio Assistant powered by Azure OpenAI & Vercel Serverless Functions",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "dev": "vercel dev"
+  },
+  "keywords": [
+    "ai",
+    "portfolio",
+    "business-card",
+    "azure-openai",
+    "rag",
+    "vercel"
+  ],
+  "author": "Billa Komal Sushank",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
