@@ -135,6 +135,14 @@ module.exports = async function handler(req, res) {
 function generateOfflineFallbackResponse(query) {
   const q = query.toLowerCase();
 
+  if (q.includes('medipro') || q.includes('medical') || q.includes('health') || q.includes('doctor') || q.includes('patient') || q.includes('capstone') || q.includes('consent') || q.includes('vault') || q.includes('x-ray') || q.includes('xray') || q.includes('prescription') || q.includes('blood') || q.includes('zero-trust') || q.includes('zero trust')) {
+    return `**MediPro AI – Enterprise Healthcare & Medical Document AI SaaS** is Sushank's flagship healthcare platform!\n\n- **Overview**: An enterprise-grade AI healthcare SaaS transforming complex medical reports (blood tests, prescriptions, X-rays, discharge summaries) into simple, patient-friendly explanations.\n- **Zero-Trust Security**: Patient Encrypted Vault, strict admin restrictions (no default access to medical files), 24h expiring patient-approved access workflows, and immutable security audit logs.\n- **Azure AI Cloud Suite**: Azure AI Vision (OCR table extraction), Azure AI Language (clinical entities & dosages), Azure OpenAI GPT-4 (empathetic plain-English summaries & Q&A), Azure AI Search Grounded RAG, and Azure AI Speech (TTS & STT).\n- **Resilient Fallback**: 100% crash-free hybrid fallback engine using mock generators if cloud credentials are absent.\n- **Tech Stack**: React 18, TypeScript, Tailwind CSS, Vite, Lucide, Framer Motion, FastAPI, MongoDB, Azure Blob Storage, ReportLab, Docker.\n- **Instant Demo Logins**:\n  - Patient Demo: \`sarah.patient@example.com\` / \`PatientPass123!\`\n  - Admin Demo: \`admin@medipro.ai\` / \`AdminSecret123!\`\n- **Live Demo**: [Open MediPro AI](https://capstone-five-tau.vercel.app/)\n- **GitHub**: [View Repository](https://github.com/Sushank47/Capstone.git)\n\n*DISCLAIMER: MediPro AI provides educational summaries only. It does not diagnose medical conditions, prescribe treatments, or replace professional healthcare advice.*`;
+  }
+
+  if (q.includes('all projects') || q.includes('list projects') || q.includes('summarize all') || q.includes('projects') || q.includes('what projects')) {
+    return `**Billa Komal Sushank has built 7 featured AI & Full-Stack projects**:\n\n1. **MediPro AI**: Enterprise Healthcare SaaS & Medical Document AI ([Demo](https://capstone-five-tau.vercel.app/) | [GitHub](https://github.com/Sushank47/Capstone.git))\n2. **Language AI**: Review Sentiment Analyzer ([Demo](https://language-ai-lovat.vercel.app) | [GitHub](https://github.com/Sushank47/LANGUAGE_AI.git))\n3. **Vision AI**: Image Captioning & OCR Platform ([Demo](https://vision-ai-puce.vercel.app) | [GitHub](https://github.com/Sushank47/VISION-AI.git))\n4. **Speech AI**: Real-Time Speech Transcription & Voice Generator ([Demo](https://speech-ai-six.vercel.app) | [GitHub](https://github.com/Sushank47/SPEECH-AI.git))\n5. **Azure OpenAI**: AI FAQ Chatbot ([Demo](https://azure-ai-woad.vercel.app) | [GitHub](https://github.com/Sushank47/Azure-AI.git))\n6. **Document Intelligence Chatbot (RAG)**: PDF Q&A with Zero Hallucinations ([Demo](https://rag-two-gamma.vercel.app) | [GitHub](https://github.com/Sushank47/RAG.git))\n7. **Employee Management System**: Full-Stack CRUD Portal with Auth & RBAC ([Demo](https://employee-management-system-ebon-sigma.vercel.app) | [GitHub](https://github.com/Sushank47/Employee-Management-System-.git))\n\nClick "Ask AI" on any project card or ask me specific technical questions!`;
+  }
+
   if (q.includes('rag') || q.includes('document')) {
     return `**Document Intelligence Chatbot (RAG)** is one of Billa Komal Sushank's key projects!\n\n- **Overview**: A Retrieval-Augmented Generation (RAG) platform allowing users to upload PDF documents and inquire in natural language.\n- **Key Tech**: Vector Search, RAG Architecture, PDF Chunking, LLM Grounding.\n- **GitHub**: [View Repository](https://github.com/Sushank47/RAG.git)\n- **Live Demo**: [Open Application](https://rag-two-gamma.vercel.app)`;
   }
@@ -164,8 +172,8 @@ function generateOfflineFallbackResponse(query) {
   }
 
   if (q.includes('weather') || q.includes('recipe') || q.includes('math') || q.includes('capital') || q.includes('who is president')) {
-    return `I am designed specifically as Sushank's AI Portfolio Assistant to answer questions about his software projects, AI innovations, and professional background. Feel free to ask me about his RAG Document Chatbot, Vision AI, Speech AI, or how to connect with him!`;
+    return `I am designed specifically as Sushank's AI Portfolio Assistant to answer questions about his software projects, AI innovations, and professional background. Feel free to ask me about his MediPro AI Healthcare SaaS, RAG Document Chatbot, Vision AI, Speech AI, or how to connect with him!`;
   }
 
-  return `Hello! I am Billa Komal Sushank's AI Portfolio Assistant. I can answer any questions about his 6 featured projects, tech stack, or GitHub and LinkedIn profiles!`;
+  return `Hello! I am Billa Komal Sushank's AI Portfolio Assistant. I can answer any questions about his 7 featured projects, tech stack, or GitHub and LinkedIn profiles!`;
 }

@@ -63,7 +63,7 @@ function initTypewriterEffect() {
   type();
 }
 
-/* 3. Render 6 Featured Projects */
+/* 3. Render Featured Projects */
 function renderProjectCards() {
   const container = document.getElementById('projects-grid');
   if (!container || typeof PROJECTS === 'undefined') return;

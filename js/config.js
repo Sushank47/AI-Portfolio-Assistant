@@ -24,8 +24,10 @@ const CONFIG = {
 
   heroTypewriterTitles: [
     "Computer Science Engineer",
+    "MediPro AI Healthcare SaaS Creator",
     "RAG Document Intelligence Chatbot Creator",
-    "Java, Spring Boot & React Developer",
+    "Java, Python & React.js Developer",
+    "Zero-Trust Patient Security Architect",
     "Vision AI & Image OCR Platform Developer",
     "Language AI Sentiment Analyzer Creator",
     "Real-Time Speech AI Voice Platform",
@@ -33,9 +35,10 @@ const CONFIG = {
   ],
 
   suggestedQuestions: [
+    "Tell me about Sushank's MediPro AI Healthcare SaaS and its Zero-Trust security.",
     "Tell me about Sushank's RAG Document Intelligence Chatbot.",
     "What technologies and AI frameworks does Sushank specialize in?",
-    "Summarize all 6 of Sushank's AI projects.",
+    "Summarize all 7 of Sushank's AI projects.",
     "How does the Vision AI platform handle image OCR?",
     "How can I connect with Sushank for collaboration?"
   ]

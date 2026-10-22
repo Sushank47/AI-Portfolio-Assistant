@@ -104,7 +104,7 @@ class AIChatAssistant {
       // Add initial welcome message
       this.messages.push({
         role: 'assistant',
-        content: `Hi there! 👋 I am **Billa Komal Sushank's AI Portfolio Assistant**.\n\nAsk me anything about Sushank's projects (*RAG Chatbot, Vision AI, Speech AI, Language AI, Azure OpenAI, Employee Portal*), tech stack, or GitHub & LinkedIn profiles!`
+        content: `Hi there! 👋 I am **Billa Komal Sushank's AI Portfolio Assistant**.\n\nAsk me anything about Sushank's projects (*MediPro Healthcare AI, RAG Chatbot, Vision AI, Speech AI, Language AI, Azure OpenAI, Employee Portal*), tech stack, or GitHub & LinkedIn profiles!`
       });
     }
 

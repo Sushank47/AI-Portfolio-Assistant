@@ -5,6 +5,17 @@
 
 const PROJECTS = [
   {
+    id: "medipro-ai",
+    title: "MediPro AI – Enterprise Healthcare & Medical Document AI SaaS",
+    category: "Healthcare AI & Zero-Trust Security",
+    description: "Enterprise healthcare AI SaaS converting complex medical reports (blood tests, prescriptions, X-rays) into patient-friendly insights with Zero-Trust patient consent and full Azure AI integration.",
+    image: "assets/images/medipro-ai.png",
+    github: "https://github.com/Sushank47/Capstone.git",
+    live: "https://capstone-five-tau.vercel.app/",
+    tags: ["Healthcare AI", "Azure AI Suite", "FastAPI", "React TS", "Zero-Trust Security", "Medical RAG"],
+    aiPrompt: "Tell me all about Sushank's MediPro AI project. What architecture, Zero-Trust patient consent system, and Azure Cloud AI capabilities does it feature?"
+  },
+  {
     id: "language-ai",
     title: "Language AI – AI-Powered Review Sentiment Analyzer",
     category: "NLP & Sentiment Analysis",

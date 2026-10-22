@@ -8,13 +8,14 @@ A premium, production-ready **Interactive Digital Business Card & AI Portfolio A
 
 - **Dark Luxury Aesthetics**: Obsidian theme with animated CSS Aurora background blobs, glassmorphism panel styling, translucent blur effects, and Google Fonts (`Outfit` & `Inter`).
 - **Interactive Hero**: Dynamic typewriter headline animation introducing Sushank's engineering specializations, status pill indicator, and fast call-to-actions.
-- **6 Featured Projects**:
-  1. **Language AI**: Review Sentiment Analyzer ([Live Demo](https://language-ai-lovat.vercel.app) | [GitHub](https://github.com/Sushank47/LANGUAGE_AI.git))
-  2. **Vision AI**: Image Captioning & OCR Platform ([Live Demo](https://vision-ai-puce.vercel.app) | [GitHub](https://github.com/Sushank47/VISION-AI.git))
-  3. **Speech AI**: Real-Time Speech Transcription & Voice Generator ([Live Demo](https://speech-ai-six.vercel.app) | [GitHub](https://github.com/Sushank47/SPEECH-AI.git))
-  4. **Azure OpenAI**: AI FAQ Chatbot ([Live Demo](https://azure-ai-woad.vercel.app) | [GitHub](https://github.com/Sushank47/Azure-AI.git))
-  5. **Document Intelligence Chatbot (RAG)**: PDF Q&A with Zero Hallucinations ([Live Demo](https://rag-two-gamma.vercel.app) | [GitHub](https://github.com/Sushank47/RAG.git))
-  6. **Employee Management System**: Full-Stack CRUD Portal with Auth & RBAC ([Live Demo](https://employee-management-system-ebon-sigma.vercel.app) | [GitHub](https://github.com/Sushank47/Employee-Management-System-.git))
+- **7 Featured Projects**:
+  1. **MediPro AI**: Enterprise Healthcare SaaS & Medical Document AI ([Live Demo](https://capstone-five-tau.vercel.app/) | [GitHub](https://github.com/Sushank47/Capstone.git))
+  2. **Language AI**: Review Sentiment Analyzer ([Live Demo](https://language-ai-lovat.vercel.app) | [GitHub](https://github.com/Sushank47/LANGUAGE_AI.git))
+  3. **Vision AI**: Image Captioning & OCR Platform ([Live Demo](https://vision-ai-puce.vercel.app) | [GitHub](https://github.com/Sushank47/VISION-AI.git))
+  4. **Speech AI**: Real-Time Speech Transcription & Voice Generator ([Live Demo](https://speech-ai-six.vercel.app) | [GitHub](https://github.com/Sushank47/SPEECH-AI.git))
+  5. **Azure OpenAI**: AI FAQ Chatbot ([Live Demo](https://azure-ai-woad.vercel.app) | [GitHub](https://github.com/Sushank47/Azure-AI.git))
+  6. **Document Intelligence Chatbot (RAG)**: PDF Q&A with Zero Hallucinations ([Live Demo](https://rag-two-gamma.vercel.app) | [GitHub](https://github.com/Sushank47/RAG.git))
+  7. **Employee Management System**: Full-Stack CRUD Portal with Auth & RBAC ([Live Demo](https://employee-management-system-ebon-sigma.vercel.app) | [GitHub](https://github.com/Sushank47/Employee-Management-System-.git))
 - **"Ask AI" Integration**: Clicking "Ask AI" on any project card slides open the AI Assistant and automatically pre-fills a detailed query about that project!
 - **AI Portfolio Assistant**: Modern ChatGPT-style chat drawer with typing animations, markdown support, suggested question chips, copy response button, auto-scroll, and `localStorage` conversation history.
 - **Strictly Grounded Assistant**: The system prompt in `api/systemPrompt.js` enforces strict boundaries. The AI answers only questions about Sushank's work, tech stack, and links, and politely refuses off-topic requests.
@@ -31,7 +32,7 @@ AI Portfolio Assistant/
 │   └── styles.css           # Glassmorphism, Aurora, & Typography design system
 ├── js/
 │   ├── config.js            # Editable profile configuration & social links
-│   ├── projects.js          # Editable 6 projects data array
+│   ├── projects.js          # Editable 7 projects data array
 │   ├── chat.js              # AI Assistant chat controller & Markdown parser
 │   └── app.js               # Main application logic & typewriter effect
 ├── api/
